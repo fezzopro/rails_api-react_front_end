@@ -95,7 +95,7 @@ Clone this repository to your desired folder:
 
 ```sh
 
-  RUN ./bin/dev
+  RUN rails s
 
 ```
 
