@@ -1,5 +1,5 @@
 class Greeting < ApplicationRecord
-  validates :message, presence: true, unique: true
+  validates :message, presence: true, uniqueness: { case_sensitive: false }
 
   def count
     Greeting.all.count
