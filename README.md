@@ -5,7 +5,7 @@
 <div align="center">
 
   <br/>
-  <h1>rails_api-react_front_end</h1>
+  <h1>rails API && react front-end</h1>
 
 </div>
 
