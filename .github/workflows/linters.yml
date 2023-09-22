@@ -25,7 +25,7 @@ jobs:
           ls -la frontend
           ls -la frontend/src
       - name: ESLint Report
-        run: npx eslint "**/*.{js,jsx}" ./frontend
+        run: npx eslint "**/*.{js,jsx}"
   stylelint:
     name: Stylelint
     runs-on: ubuntu-22.04
