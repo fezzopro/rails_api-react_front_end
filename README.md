@@ -83,7 +83,7 @@ Clone this repository to your desired folder:
   RUN cd rails_api-react_front_end
   RUN git checkout set-up-project
 
-  CREATE a .env file on your root directory
+  CREATE a .env file on your backend/ directory
   ADD the following on the .env file with your postgres database credentials
 
   export PORT=3000
