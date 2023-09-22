@@ -1,0 +1,2 @@
+web: env RUBY_DEBUG_OPEN=true backend/bin/rails server
+js: cd frontend/ && npm start
