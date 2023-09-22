@@ -1,1 +1,1 @@
-# rails_api-react_front_end
+[![Linters](https://github.com/fezzopro/rails_api-react_front_end/actions/workflows/linters.yml/badge.svg?branch=set-up-project)](https://github.com/fezzopro/rails_api-react_front_end/actions/workflows/linters.yml)
