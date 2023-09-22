@@ -1,9 +1,10 @@
 <a name="readme-top"></a>
+
 <div align="center">
-  <img src="./photo.png" alt="photo" width="80"/>
-  <img src="./intro.png" alt="logo"/>
-  <br/>  
-  <h2><b>hello-react-front-end</b></h2>
+
+  <br/>
+  <h1>rails front-end</h1>
+
 </div>
 
 # 📗 Table of Contents
