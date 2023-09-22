@@ -1,70 +1,140 @@
-# Getting Started with Create React App
+<a name="readme-top"></a>
+<div align="center">
+  <img src="./photo.png" alt="photo" width="80"/>
+  <img src="./intro.png" alt="logo"/>
+  <br/>  
+  <h2><b>hello-react-front-end</b></h2>
+</div>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# 📗 Table of Contents
 
-## Available Scripts
+- [📖 About the Project](#📖-hello-react-front-end)
+  - [🛠 Built With](#🛠-built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+    - [Link to Backend](#link-to-backend)
+- [💻 Getting Started](#💻-getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+- [👥 Author](#👥-author)
+- [🔭 Future Features](#🔭-future-features)
+- [🤝 Contributing](#🤝-contributing)
+- [⭐️ Show your support](#⭐️-support)
+- [🙏 Acknowledgements](#🙏-acknowledgements)
+- [📝 License](#📝-license)
 
-In the project directory, you can run:
+<br>
+# 📖 hello-react-front-end
 
-### `npm start`
+hello-react-front-end fetch and display random greeting messages from 'hello-rails-back-end' API app.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<br>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🛠 Built With
+- React
+- Redux
+- Linters
 
-### `npm test`
+### Tech Stack
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li><a href="https://create-react-app.dev/docs/getting-started/">React</a></li>
+    <li><a href="https://redux.js.org/">Redux</a></li>
+  </ul>
+</details>
+<details>
+  <summary>API</summary>
+  <ul>
+    <li><a href="https://github.com/fezzopro/rails_api-react_front_end.git">hello-rails-back-end API</a></li>
+  </ul>
+</details>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Key Features
+- Fetch and display random greeting messages from hello-rails-back-end API.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### `npm run build`
+### Link to Backend
+- [Rails Backend](https://github.com/fezzopro/rails_api-react_front_end.git)
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 💻 Getting Started
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+To get a local copy up and running, follow these steps.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Prerequisites
 
-### `npm run eject`
+1. Web browser.
+2. Code Editor.
+3. Git-smc.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Setup
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Clone this repository to your desired folder:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```sh
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+  RUN git clone https://github.com/fezzopro/rails_api-react_front_end.git
+  RUN cd rails_api-react_front_end/frontend
 
-## Learn More
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Install
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```sh
 
-### Code Splitting
+  RUN npm install
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+  Change API_URL value from src/config/globals.js to the actual backend URL
 
-### Analyzing the Bundle Size
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### Usage
 
-### Making a Progressive Web App
+```sh
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+  RUN npm start
 
-### Advanced Configuration
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### Run tests
 
-### Deployment
+```sh
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+  RUN npm test
 
-### `npm run build` fails to minify
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+👤 **Felix KAMANA**
+
+- GitHub: [@githubhandle](https://github.com/fezzopro)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/kamana-felix/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🔭 Future Features
+- [ ] Testing
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🤝 Contributing
+> Contributions, issues, and feature requests are welcome!
+Feel free to check the [issues page](https://github.com/fezzopro/rails_api-react_front_end/issues).
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+## ⭐️ Show your support
+>If you like this project just give it a star ⭐️.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🙏 Acknowledgements
+>I would like to thank Microverse comnunity for their supports.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 📝 License
+>This project is [MIT](./LICENSE) licensed.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
