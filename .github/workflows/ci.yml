@@ -1,0 +1,39 @@
+name: Continuous integration
+on: pull_request
+
+jobs:
+  test:
+
+    runs-on: ubuntu-latest
+    services:
+      postgres:
+        image: postgres:11
+        env:
+          POSTGRES_USER: postgres
+          POSTGRES_PASSWORD: postgres
+        ports: ['5432:5432']
+        options:
+          --health-cmd pg_isready
+          --health-interval 10s
+          --health-timeout 5s
+          --health-retries 5
+
+    steps:
+      - uses: actions/checkout@v3
+      - name: Set up Ruby
+        uses: actions/setup-ruby@v1
+        with:
+          bundler-cache: true
+      - name: Build and run test
+        env:
+          DATABASE_URL: postgres://postgres:postgres@localhost:5432/Budget_app_test
+          RAILS_ENV: test
+          POSTGRES_USER: postgres
+          POSTGRES_PASSWORD: postgres
+        run: |
+          sudo apt-get -yqq install libpq-dev
+          bundle install --jobs 4 --retry 3
+          bundle exec rails db:create
+          bundle exec rails db:migrate
+          bundle exec rake assets:precompile
+          RAILS_ENV=test bundle exec rake
