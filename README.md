@@ -87,7 +87,7 @@ Clone this repository to your desired folder:
   ADD the following on the .env file with your postgres database credentials
 
   export PORT=
-  export DB_USERAME=
+  export DB_USERNAME=
   export DB_PASSWORD=
   export DB_HOST=
   export DB_PORT=
