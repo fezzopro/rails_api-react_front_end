@@ -30,6 +30,8 @@ jobs:
           RAILS_ENV: test
           DB_USERNAME: postgres
           DB_PASSWORD: postgres
+          DB_HOST: localhost
+          DB_PORT: 5432
         run: |
           cd backend/
           sudo apt-get -yqq install libpq-dev
