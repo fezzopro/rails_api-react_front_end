@@ -139,5 +139,5 @@ Feel free to check the [issues page](https://github.com/fezzopro/rails_api-react
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 📝 License
->This project is [MIT](./LICENSE) licensed.
+>This project is [MIT](./frontend/LICENSE) licensed.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
