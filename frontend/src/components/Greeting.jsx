@@ -7,10 +7,16 @@ const Greeting = () => {
   const dispatch = useDispatch();
   useEffect(() => {
     dispatch(fetchMessage());
-  }, []);
+  }, [dispatch]);
   if (greeting.isLoading) {
     return (
-      <h3>...</h3>
+      <h3>Loading...</h3>
+    );
+  }
+
+  if (greeting.error) {
+    return (
+      <h3 className="error">{`${greeting.error} ⚠️`}</h3>
     );
   }
   return (

@@ -18,7 +18,7 @@ export const greetingSlice = createSlice({
   initialState,
   reducers: {
     setGreeting: (state, { payload }) => {
-      state.greeting = payload;
+      state.greeting = [...payload];
     },
   },
   extraReducers: (builder) => {
