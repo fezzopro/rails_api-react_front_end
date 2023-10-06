@@ -52,7 +52,7 @@ hello-react-front-end fetch and display random greeting messages from 'hello-rai
 <details>
   <summary>API</summary>
   <ul>
-    <li><a href="https://github.com/fezzopro/rails_api-back_end.git">hello-rails-back-end API</a></li>
+    <li><a href="https://github.com/fezzopro/rails_api-back_end/tree/set-up-project">hello-rails-back-end API</a></li>
   </ul>
 </details>
 
@@ -61,7 +61,7 @@ hello-react-front-end fetch and display random greeting messages from 'hello-rai
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Link to Backend
-- [Rails Backend](https://github.com/fezzopro/rails_api-back_end.git)
+- [Rails Backend](https://github.com/fezzopro/rails_api-back_end/tree/set-up-project)
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 💻 Getting Started
