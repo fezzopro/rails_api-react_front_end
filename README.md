@@ -1,77 +1,76 @@
-[![CI](https://github.com/fezzopro/rails_api-react_front_end/actions/workflows/ci.yml/badge.svg)](https://github.com/fezzopro/rails_api-react_front_end/actions/workflows/ci.yml)  [![Linters](https://github.com/fezzopro/rails_api-react_front_end/actions/workflows/linters.yml/badge.svg?branch=set-up-project)](https://github.com/fezzopro/rails_api-react_front_end/actions/workflows/linters.yml)
-
 <a name="readme-top"></a>
 
 <div align="center">
 
   <br/>
-  <h1>rails API && react front-end</h1>
+  <h1>rails front-end</h1>
 
 </div>
 
-## 📗 Table of Contents
+# 📗 Table of Contents
 
-- [📖 About the Project](#about-project)
-  - [🛠 Built With ](#-built-with-)
-    - [Tech Stack ](#tech-stack-)
-    - [Key Features ](#key-features-)
-- [💻 Getting Started ](#-getting-started-)
-  - [Prerequisites](#prerequisites)
+- [📖 About the Project](#📖-hello-react-front-end)
+  - [🛠 Built With](#🛠-built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+    - [Link to Backend](#link-to-backend)
+- [💻 Getting Started](#💻-getting-started)
   - [Setup](#setup)
-  - [Setup](#install)
-  - [Setup](#usage)
-  - [Run Tests](#run-tests)
-  - [👥 Authors ](#-authors-)
-- [🔭 Future Features:](#-future-features)
-  - [🤝 Contributing ](#-contributing-)
-  - [⭐️ Show your support ](#️-show-your-support-)
-  - [🙏 Acknowledgments ](#-acknowledgments-)
-  - [📝 License ](#-license-)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+- [👥 Author](#👥-author)
+- [🔭 Future Features](#🔭-future-features)
+- [🤝 Contributing](#🤝-contributing)
+- [⭐️ Show your support](#⭐️-support)
+- [🙏 Acknowledgements](#🙏-acknowledgements)
+- [📝 License](#📝-license)
 
-<!-- PROJECT DESCRIPTION -->
+<br>
+# 📖 hello-react-front-end
 
-# React-Rails <a name="about-project"></a>
+hello-react-front-end fetch and display random greeting messages from 'hello-rails-back-end' API app.
 
-> A react-rails Random Greeting App, with React for Front-end and Rails as a Back-end API. 
+<br>
 
-## 🛠 Built With <a name="built-with"></a>
+## 🛠 Built With
+- React
+- Redux
+- Linters
 
-### Tech Stack <a name="tech-stack"></a>
-
+### Tech Stack
 <details>
-  <summary>Frontend</summary>
+  <summary>Client</summary>
   <ul>
-    <li><a href="https://reactjs.org/">React</a></li>
+    <li><a href="https://create-react-app.dev/docs/getting-started/">React</a></li>
+    <li><a href="https://redux.js.org/">Redux</a></li>
   </ul>
 </details>
 <details>
-  <summary>Backend</summary>
+  <summary>API</summary>
   <ul>
-    <li><a href="https://rubyonrails.org/">Ruby on Rails</a></li>
+    <li><a href="https://github.com/fezzopro/rails_api-back_end.git">hello-rails-back-end API</a></li>
   </ul>
 </details>
 
-<!-- Features -->
-
-### Key Features <a name="key-features"></a>
-
-- React & Rails connected
-
+### Key Features
+- Fetch and display random greeting messages from hello-rails-back-end API.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- GETTING STARTED -->
+### Link to Backend
+- [Rails Backend](https://github.com/fezzopro/rails_api-back_end.git)
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 💻 Getting Started <a name="getting-started"></a>
+## 💻 Getting Started
+
+To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
-In order to run this project you need `Ruby version >= 3.1`
-
-```sh
-
-  Install Ruby & Ruby on Rails on your local machine
-
-```
+1. Web browser.
+2. Code Editor.
+3. Git-smc.
 
 ### Setup
 
@@ -80,91 +79,63 @@ Clone this repository to your desired folder:
 ```sh
 
   RUN git clone https://github.com/fezzopro/rails_api-react_front_end.git
-  RUN cd rails_api-react_front_end
-  RUN git checkout set-up-project
-
-  CREATE a .env file on your backend/ directory
-  ADD the following on the .env file with your postgres database credentials
-
-  export PORT=3000
-  export DB_USERNAME=
-  export DB_PASSWORD=
-  export DB_HOST=
-  export DB_PORT=
+  RUN cd rails_api-react_front_end/frontend
 
 ```
 
 ### Install
 
-Install System dependencies with:
-
 ```sh
 
-  RUN ./install_dependencies.sh
+  RUN npm install
+
+  Change API_URL value from src/config/globals.js to the actual backend URL
 
 ```
 
 ### Usage
 
-To run the project, execute the following command:
-
 ```sh
 
-  RUN ./run.sh
+  RUN npm start
 
 ```
 
-### Run Tests
+### Run tests
 
 ```sh
 
-  rspec spec
+  RUN npm test
 
 ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- AUTHORS -->
-
-## 👥 Authors <a name="authors"></a>
 
 👤 **Felix KAMANA**
 
 - GitHub: [@githubhandle](https://github.com/fezzopro)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/kamana-felix/)
 
-# 🔭 Future Features:
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-- Separate front-end and backend
+## 🔭 Future Features
+- [ ] Testing
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 🤝 Contributing <a name="contributing"></a>
-
-Contributions, issues, and feature requests are welcome!
-
+## 🤝 Contributing
+> Contributions, issues, and feature requests are welcome!
 Feel free to check the [issues page](https://github.com/fezzopro/rails_api-react_front_end/issues).
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- SUPPORT -->
 
-## ⭐️ Show your support <a name="support"></a>
-
-If you liked this project, give it a ⭐️ and kindly send to me an e-mail expressing it, it would make our day and fuel our motivation.
-
+## ⭐️ Show your support
+>If you like this project just give it a star ⭐️.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- ACKNOWLEDGEMENTS -->
-
-## 🙏 Acknowledgments <a name="acknowledgements"></a>
-
-I would like to thank Microverse for this opportunity.
-
+## 🙏 Acknowledgements
+>I would like to thank Microverse comnunity for their supports.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- LICENSE -->
-
-## 📝 License <a name="license"></a>
-
-This project is [MIT](./LICENSE) licensed.
-
+## 📝 License
+>This project is [MIT](./LICENSE) licensed.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
