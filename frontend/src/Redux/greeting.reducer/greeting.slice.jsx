@@ -5,6 +5,7 @@ import { API_URL } from '../../config/globals';
 const initialState = {
   greeting: {},
   isLoading: true,
+  state: {},
 };
 
 export const fetchMessage = createAsyncThunk(('greeting/fetchMessage'), () => (

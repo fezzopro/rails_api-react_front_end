@@ -21,6 +21,12 @@
     "react"
   ],
   "rules": {
+    "no-param-reassign": [
+      2,
+      {
+        "props": false
+      }
+    ],
     "react/jsx-filename-extension": [
       "warn",
       {
